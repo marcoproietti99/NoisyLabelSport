@@ -1,0 +1,33 @@
+name: scarcenet_gpu
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - matplotlib
+  - opencv
+  - pandas
+  - scikit-image
+  - scikit-learn
+  - scipy
+  - yacs
+  - easydict
+  - tqdm
+  - pyyaml
+  - tensorboard
+  - pip:
+      - pycocotools
+      - imgaug
+      - imageio
+      - pycocotools
+      - torch==2.2.2
+      - torchvision==0.17.2
+      - torchaudio==2.2.2
+      - requests
+      - protobuf
+      - json-tricks
+      - tensorboardx
+      - visdom
+      - xtcocotools

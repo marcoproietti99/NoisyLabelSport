@@ -1,0 +1,29 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Large files and datasets
+*.h5
+*.hdf5
+*.pkl
+*.csv
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
