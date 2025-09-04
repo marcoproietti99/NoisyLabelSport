@@ -20,6 +20,7 @@ ENV/
 *.7z
 *.tar
 *.gz
+*.jpg
 
 # IDE
 .vscode/
